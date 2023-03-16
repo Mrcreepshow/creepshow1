@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+   
+  </nav>
+  <h1> about the artist </h1>
+  <p1> claire blah blah blah blah...... <br>
+    wah wah wahhhh wah wahh wah wah <br>
+    paragraph paragraph spacing spacing <br>
+    I will write something real here at some point maybe.....<br>
+    website to do: styling lol big time styling <br>
+    I write and draw and sometimes make things from electronics <br>
+    I also make things out of doll parts and other unique found objects <br>
+    I would like to learn sound/music stuff maybe sing songs?? <br>
+    I do other random crafty things too like paper making and jewelry making
+    
+  </p1>
+<nav>
+   <a href="artworks.html">Artworks</a>
+  </nav>
+</body>
+</html>
