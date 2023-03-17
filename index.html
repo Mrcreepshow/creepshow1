@@ -4,19 +4,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oi&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Oi&display=swap" rel="stylesheet">
   <style>
     body{
       margin: 20px;
       background-image: linear-gradient(to bottom right, #68470d, #af8c50);
       background-color: #68470d;
     }
+    .navbar{
+      height: 12%;
+      display: flex;
+      align-items: center;
+    }
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      margin: 70px;
+      
+    }
+    nav ul li a{
+      font-family: 'Aldrich', sans-serif;
+      text-decoration: none; 
+      font-style: italic;
+      color: #E6B400;
+      font-size: 15;
+      
+      -webkit-text-stroke: 0.05px #000;
+      
+    }
     h1{
       text-align: center; 
-      
-      color: #E6B400c;
+      color: black;
       font-family: 'Oi', cursive;
       font-style: italic;
       font-size: 70px;
@@ -24,15 +44,28 @@
       letter-spacing: 3px;
       -webkit-text-stroke: 0.5px #89A4BE;
     }
+    
+   
+  
   </style>
+  
+  
   <title>Home Page</title>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="artworks.html">Artworks</a>
-  </nav>
+  <div class="container">
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="artworks.html">Artworks</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+ 
   <h1> home page </h1>
+ 
 </body>
 </html>
