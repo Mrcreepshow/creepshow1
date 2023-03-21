@@ -4,20 +4,67 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Oi&display=swap" rel="stylesheet">
   <title>Artworks-page</title>
+  <style>
+    body{
+      background-color: #F68F22;
+      
+    }
+   .navbar{
+      height: 12%;
+      display: flex;
+      align-items: center;
+    }
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      word-spacing: 30px;
+      
+      
+    }
+    nav ul li a{
+      font-family: 'Aldrich', sans-serif;
+      text-decoration: none; 
+      font-style: italic;
+      color: #354BF8;
+      font-size: 15;
+      
+      -webkit-text-stroke: 0.05px #000;
+    }
+      
+    h1{
+      text-align: center; 
+      color: black;
+      font-family: 'Oi', cursive;
+      font-style: italic;
+      font-size: 50px;
+      text-shadow: 2px 2px 3px #C20000, -2px -2px 5px #C20000;
+      letter-spacing: 3px;
+      -webkit-text-stroke: 0.5px #89A4BE;
+    }
+  </style>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-  </nav>
-  <h1> artworks </h1>
+  <div class="container">
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <h1> portfolio </h1>
 
-  <iframe id="inlineFrameExample"
+<!--   <iframe id="inlineFrameExample"
     title="Inline Frame Example"
     width="600"
     height="400"
     src="https://editor.p5js.org/chuver/full/vjRwSOc2s"></iframe>
-
+ -->
 </body>
 </html>
